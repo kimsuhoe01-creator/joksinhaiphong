@@ -47,11 +47,12 @@ const MENU = [
   {cat:'side', img:'images/sauce.jpg', n:{ko:'소스 (매운·마늘·냉채)',vi:'Nước chấm',en:'Sauce',zh:'酱料'}, prices:[['single',tax8(20000)]]},
 
   {cat:'meal', img:'images/kodari-naengmyeon.jpg', n:{ko:'코다리냉면',vi:'Miến lạnh trộn khô cá minh thái',en:'Kodari Cold Noodles',zh:'明太鱼干拌冷面'}, prices:[['single',tax8(180000)]]},
+  {cat:'meal', img:'', n:{ko:'코다리 추가',vi:'Thêm cá minh thái khô',en:'Extra Kodari',zh:'追加明太鱼干'}, prices:[['single',75600]]},
   {cat:'meal', img:'images/water-naengmyeon.jpg', n:{ko:'물냉면',vi:'Miến lạnh nước',en:'Cold Noodles in Broth',zh:'水冷面'}, prices:[['single',tax8(150000)]]},
   {cat:'meal', img:'images/spicy-naengmyeon.jpg', spicy:true, n:{ko:'비빔냉면',vi:'Miến lạnh trộn',en:'Spicy Mixed Cold Noodles',zh:'拌冷面'}, prices:[['single',tax8(150000)]]},
 
   {cat:'drink', img:'images/soju.jpg', n:{ko:'소주',vi:'Soju',en:'Soju',zh:'韩国烧酒'}, prices:[['single',tax10(140000)]]},
-  {cat:'drink', img:'images/beer.jpg', n:{ko:'맥주 (Tiger·Heineken 330ml)',vi:'Bia (Tiger · Heineken 330ml)',en:'Beer (Tiger · Heineken 330ml)',zh:'啤酒(Tiger·喜力330ml)'}, prices:[['single',tax10(50000)]]},
+  {cat:'drink', img:'images/beer.jpg', n:{ko:'Tiger 맥주 330ml',vi:'Bia Tiger 330ml',en:'Tiger Beer 330ml',zh:'Tiger啤酒330ml'}, prices:[['single',tax10(50000)]]},
   {cat:'drink', img:'images/soft-drink.jpg', n:{ko:'음료수 (콜라·사이다·환타)',vi:'Nước ngọt',en:'Soft Drinks',zh:'饮料'}, prices:[['single',tax10(30000)]]},
   {cat:'drink', img:'images/makgeolli.jpg', n:{ko:'막걸리',vi:'Rượu gạo Makgeolli',en:'Makgeolli',zh:'马格利米酒'}, prices:[['single',tax10(160000)]]},
   {cat:'drink', img:'images/chungha.jpg', n:{ko:'청하',vi:'Rượu Chung Ha',en:'Chungha',zh:'清河清酒'}, prices:[['single',tax10(200000)]]},
